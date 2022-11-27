@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "balloonapp": {
+      "commandName": "Project",
+      "commandLineArgs": "/C 23",
+      "workingDirectory": "D:\\vs_app\\balloonapp\\bin\\Debug\\net6.0-windows8.0"
+    },
+    "プロファイル 1": {
+      "commandName": "Executable",
+      "executablePath": "D:\\vs_app\\balloonapp\\bin\\Debug\\net6.0-windows8.0\\balloonapp.exe",
+      "commandLineArgs": "/C 23",
+      "workingDirectory": "D:\\vs_app\\balloonapp\\bin\\Debug\\net6.0-windows8.0"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!-- 秀丸メール受信バルーンチップ通知機能（便利シリーズ）Ver.2022.04.00 設定ファイル -->
+<Settings>
+<!--
+	秀丸メールパス（必須）
+	default:なし
+	ご自身の動作環境に合わせて設定して下さい。
+-->
+	<HideMailPath>C:\Program Files (x86)\HidemaruMail\TuruKame.exe</HideMailPath>
+<!--
+	秀丸メール起動パラメータ（任意）
+	default:なし
+	※）特に必要はありません。必要に応じて設定して下さい。
+	例)<HideMailParameter>newmail To="maruo@mitene.or.jp" Subject="テスト" Body="メール本文"</HideMailParameter>
+-->
+	<HideMailParameter></HideMailParameter>
+<!--
+	バルーン表示タイムアウト（非推奨）
+	※）OS側の設定を推奨します。
+	default:3000ms (システム側の設定に依存)
+-->
+	<BalloonTime></BalloonTime>
+<!--
+	バルーン表示で秀丸メール起動ON/OFF選択
+	default:起動なし(false)
+	true: 起動する
+-->
+	<BalloonTipShownAct></BalloonTipShownAct>
+<!--
+	バルーンアイコン(ICO)ファイル指定（任意）
+	default:{秀丸メールマクロフォルダ}\bell.ico
+	相対パスまたはファイル名のみでも良いです。
+	パスを省略した場合は{秀丸メールマクロフォルダ}配下にあるものとしては扱います。
+	-->
+	<BalloonIconFile></BalloonIconFile>
+<!--
+	バルーンアイコン種類（任意）
+	default:info
+	"info":情報
+	"warn":警告
+	"error:エラー
+	"none":なし
+-->
+	<IconKind></IconKind>
+<!--
+	バルーンアイコンのチップテキスト（任意）
+	default:新着メールアイコン
+-->
+	<BalloonIconTipText>秀丸メール新着通知</BalloonIconTipText>
+<!--
+	バルーンメッセージ（任意）
+	default:あなた宛てにメールが届いています。
+-->
+	<BalloonMessage></BalloonMessage>
+<!--
+	バルーンタイトル（任意）
+	default:新着メールのお知らせ
+-->
+	<BalloonTitle>秀丸メール新着通知</BalloonTitle>
+<!--
+	新着メール数表示有無(true/false)（任意）
+	default:true
+-->
+	<NewMailCount>true</NewMailCount>
+<!--
+	新着メール数表示フォーマット（任意）
+	default:新着メールは{0}件です。
+	※）これを表示する時は<NewMailCount>true</NewMailCount>を設定する
+-->
+	<MailCountFrm>受信メール件数：{0}件です。</MailCountFrm>
+<!--
+	デバッグログを吐き出すか否かを設定（任意）
+	default:false 通常モード（ログの吐き出しはしない）
+-->
+	<DebugMode>true</DebugMode>
+</Settings>
