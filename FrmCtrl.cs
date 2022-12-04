@@ -156,6 +156,8 @@ namespace balloonapp
                     this.balloonCtrl.BalloonMessage + "\n" +
                     string.Format(this.balloonCtrl.MailCountFrm, 
                     this.IntMailCount.ToString());
+                // ログ出力
+                LogFile.Write($"新着メール合計：{this.IntMailCount} by Server", NamedPipeObj.LogFlag);
             }
             else
             {   // バルーンメッセージ
